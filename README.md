@@ -6,5 +6,5 @@
 # bashrc
 - ssh to your remote machine without running .bashrc `ssh -t ?:.?.?.?  /bin/sh`
 - delete all files in directory with a certain extension `find . -name "*.o" -type f -delete`
--use vi as your default editor: `export VISUAL=vim`  `export EDITOR="$VISUAL"`
+- use vi as your default editor: edit .bashrc `export VISUAL=vim`  `export EDITOR="$VISUAL"`
 
