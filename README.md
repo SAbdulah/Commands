@@ -8,3 +8,7 @@
 - delete all files in directory with a certain extension `find . -name "*.o" -type f -delete`
 - use vi as your default editor: edit .bashrc `export VISUAL=vim`  `export EDITOR="$VISUAL"`
 
+# run mpirun on acluster without SLURM  (Hong Kong Cluster). You should see all env configurations by:
+(1) add `PermitUserEnvironment yes` to `sudo vi /etc/ssh/sshd_config`
+(2) add all contents of `env` to `vi ~/.ssh/environment`
+(3) restrat node daemon `sudo service ssh restart`
