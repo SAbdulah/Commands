@@ -9,6 +9,6 @@
 - use vi as your default editor: edit .bashrc `export VISUAL=vim`  `export EDITOR="$VISUAL"`
 
 # run mpirun on acluster without SLURM  (Hong Kong Cluster). You should see all env configurations by:
-(1) add `PermitUserEnvironment yes` to `sudo vi /etc/ssh/sshd_config`
-(2) add all contents of `env` to `vi ~/.ssh/environment`
-(3) restrat node daemon `sudo service ssh restart`
+- add `PermitUserEnvironment yes` to `sudo vi /etc/ssh/sshd_config`
+- add all contents of `env` to `vi ~/.ssh/environment`
+- restrat node daemon `sudo service ssh restart`
