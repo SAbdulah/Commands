@@ -12,3 +12,8 @@
 - add `PermitUserEnvironment yes` to `sudo vi /etc/ssh/sshd_config`
 - add all contents of `env` to `vi ~/.ssh/environment`
 - restrat node daemon `sudo service ssh restart`
+
+
+#install ahmed module
+- modinfo rack.ko
+- sudo insmod rack.ko enable=1 port=1024
