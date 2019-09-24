@@ -15,3 +15,6 @@
 - install ahmed module
   - modinfo rack.ko
   - sudo insmod rack.ko enable=1 port=1024
+  
+# generate ExageostatR docs from R
+  - roxygen2::roxygenise()
